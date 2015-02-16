@@ -82,6 +82,7 @@
 									<!-- ENDIF posts.editor.username -->
 								</small>
 
+								<!-- IF cid !== 5 -->
 								<div class="dropdown share-dropdown">
 									<a href="#" class="dropdown-toggle postMenu favourite-tooltip" id="postMenu_{posts.pid}" data-toggle="dropdown">
 										<i class="fa fa-heart"></i>
@@ -143,6 +144,9 @@
 									&bull; {posts.user.custom_profile_info.content}
 									<!-- END custom_profile_info -->
 								<!-- ENDIF posts.user.custom_profile_info.length -->
+								<!-- ELSE -->
+								<button class="btn btn-primary upvote2" type="button">Vote <span class="badge votes" data-votes="{posts.votes}">{posts.votes}</span></button>
+								<!-- ENDIF cid -->
 								<span class="post-tools">
 									<!-- IF !posts.selfPost -->
 									<!-- IF posts.user.userslug -->

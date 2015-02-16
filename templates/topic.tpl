@@ -158,8 +158,10 @@
 									<!-- ENDIF posts.user.userslug -->
 									<!-- ENDIF !posts.selfPost -->
 									<!-- IF privileges.topics:reply -->
+									<!-- IF !isInvite -->
 									<button class="btn btn-sm btn-link quote" type="button" title="[[topic:quote]]"><i class="fa fa-quote-left"></i><span class="hidden-xs-inline"> [[topic:quote]]</span></button>
 									<button class="btn btn-sm btn-link post_reply" type="button"><i class="fa fa-reply"></i><span class="hidden-xs-inline"> [[topic:reply]]</span></button>
+									<!-- ENDIF !isInvite -->
 									<!-- ENDIF privileges.topics:reply -->
 									<!-- IF !posts.selfPost -->
 									<!-- IF loggedIn -->

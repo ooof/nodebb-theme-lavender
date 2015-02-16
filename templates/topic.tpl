@@ -188,7 +188,7 @@
 			<li class="post-bar" data-index="{posts.index}">
 				<!-- IMPORT partials/post_bar.tpl -->
 			</li>
-			<!-- ENDIF -->
+			<!-- ENDIF !isInvite -->
 			<!-- ENDIF !posts.index -->
 		<!-- END posts -->
 	</ul>

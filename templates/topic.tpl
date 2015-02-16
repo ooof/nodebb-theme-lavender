@@ -184,9 +184,11 @@
 			</li>
 
 			<!-- IF !posts.index -->
+			<!-- IF !isInvite -->
 			<li class="post-bar" data-index="{posts.index}">
 				<!-- IMPORT partials/post_bar.tpl -->
 			</li>
+			<!-- ENDIF -->
 			<!-- ENDIF !posts.index -->
 		<!-- END posts -->
 	</ul>

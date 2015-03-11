@@ -54,6 +54,7 @@
 									<!-- IF email -->
 									<h3 class="topic-title">
 										<p id="topic_email_{posts.pid}" class="topic-title" itemprop="email"><i class="fa fa-thumb-tack hide"></i> <i class="fa fa-lock hide"></i>{email}</p>
+										<hr>
 									</h3>
 									<!-- ENDIF email -->
 									<!-- ENDIF @first -->

@@ -51,6 +51,11 @@
 										<p id="topic_title_{posts.pid}" class="topic-title" itemprop="name"><i class="fa fa-thumb-tack hide"></i> <i class="fa fa-lock hide"></i> {title}</p>
 										<hr>
 									</h3>
+									<!-- IF email -->
+									<h3 class="topic-title">
+										<p id="topic_email_{posts.pid}" class="topic-title" itemprop="email"><i class="fa fa-thumb-tack hide"></i> <i class="fa fa-lock hide"></i>{email}</p>
+									</h3>
+									<!-- ENDIF email -->
 									<!-- ENDIF @first -->
 									<div id="content_{posts.pid}" class="post-content" itemprop="text">{posts.content}</div>
 									<!-- IF posts.user.signature -->

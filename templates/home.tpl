@@ -1,5 +1,5 @@
 <!-- IF !loggedIn -->
-<div class="category-item" style="text-align:center;background-color:yellow">
+<div class="category-item" style="text-align:center;background-color:black">
 	<img src="/images/martin.jpg">
 </div>
 <!-- ELSE -->

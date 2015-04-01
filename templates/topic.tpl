@@ -150,9 +150,10 @@
 									&bull; {posts.user.custom_profile_info.content}
 									<!-- END custom_profile_info -->
 								<!-- ENDIF posts.user.custom_profile_info.length -->
-								<!-- ELSE -->
-								<button class="btn btn-primary upvote2" type="button">Vote <span class="badge votes" data-votes="{posts.votes}">{posts.votes}</span></button>
 								<!-- ENDIF !isInvite -->
+								<!-- IF isInvite -->
+								<button class="btn btn-primary upvote2" type="button">Vote <span class="badge votes" data-votes="{posts.votes}">{posts.votes}</span></button>
+								<!-- ENDIF isInvite -->
 								<span class="post-tools">
 									<!-- IF !posts.selfPost -->
 									<!-- IF posts.user.userslug -->
